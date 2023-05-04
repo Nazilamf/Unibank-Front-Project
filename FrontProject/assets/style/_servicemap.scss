@@ -1,0 +1,82 @@
+.xidmet-title {
+  @include active-title;
+
+}
+
+.tab-menu {
+    .tab-links {
+        display: flex;
+
+        button {
+            flex: 1;
+            margin-right: 30px;
+            position: relative;
+            background: #fff;
+            color: rgba(50, 50, 50, 0.5);
+            border: 2px solid rgba(50, 50, 50, 0.5);
+            padding: 16px 25px;
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 800px;
+            font-family: Coco, Arial;
+            border-radius: 25px;
+            margin-bottom: 30px;
+
+            &::before {
+                transform: rotateZ(314deg)translate(-39%);
+                border-left: 2px solid rgba(50, 50, 50, 0.5);
+                border-bottom: 2px solid rgba(50, 50, 50, 0.5);
+                bottom: -4px;
+                left: 44%;
+                content: "";
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                background-color: #fff;
+            }
+
+
+        }
+
+
+    }
+
+    .tab-content {
+        .branch {
+            width: 100%;
+            display: flex;
+            padding: 35px 65px;
+            background: #fafafa;
+            border-radius: 10px;
+            transition: .3s;
+            &:hover {
+                cursor: pointer;
+                background-color: #ff6400;
+                color: #fff;
+               
+
+            }
+          
+            div {
+                align-items: center;
+                
+               
+    
+            }
+
+        }
+    }
+}
+
+.active {
+    border: 2px solid #ff6400 !important;
+    color: #ff6400 !important;
+
+    &::before {
+        border-left: 2px solid #ff6400 !important;
+        border-bottom: 2px solid #ff6400 !important;
+    }
+
+    
+}
+

@@ -1,0 +1,331 @@
+@media(max-width: 567px) {
+    .main-header {
+        display: none;
+
+
+
+    }
+
+    #exchange {
+        display: none;
+    }
+
+    .exchange-mobile {
+        display: block !important;
+    }
+
+    .debet-kartlar {
+        .card {
+            width: 100%;
+            text-align: center;
+            padding: 0px;
+
+            img {
+                width: 90%;
+            }
+
+            .card-text {
+                padding-right: 0px;
+            }
+
+            .card-price {
+                text-align: center;
+            }
+
+
+        }
+    }
+
+    .diger-kartlar{
+        .card {
+            width: 100%;
+            text-align: center;
+            padding: 0px;
+
+            img {
+                width: 90%;
+            }
+
+            .card-text {
+                padding-right: 0px;
+            }
+
+            .card-price {
+                text-align: center;
+            }
+
+
+        }
+    }
+
+    .allcards {
+        padding-top: 10px;
+        flex: auto;
+
+        .card {
+
+            .info {
+
+                span {
+                    font-size: 28px;
+                    line-height: normal;
+
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                button {
+                    margin-top: -40px;
+                }
+
+                h5 {
+                    font-size: 16px;
+                }
+
+                .dif {
+                    margin-top: 22px;
+                }
+
+            }
+        }
+    }
+
+    .ucard {
+        display: block !important;
+
+
+        img {
+            width: 100%;
+        }
+
+        .buttons {
+            flex-wrap: wrap;
+
+            .main {
+
+                padding-left: 150px !important;
+                padding-right: 150px !important;
+                margin-bottom: 30px;
+
+            }
+        }
+
+
+
+
+    }
+
+    .ubank {
+        display: block !important;
+
+        img {
+            width: 50%;
+        }
+
+        .store {
+            width: 50%;
+
+        }
+    }
+
+    .exchange {
+        tr th {
+            width: 33.3333333%;
+            padding: 15px 0;
+            padding-right: 30px;
+            white-space: nowrap;
+            color: #323232;
+            font-weight: 700;
+            line-height: 14px;
+            font-size: 16px;
+            font-family: Coco, Arial;
+
+        }
+
+        td {
+            color: rgba(50, 50, 50, .5);
+        }
+
+        p {
+            color: rgba(50, 50, 50, .5);
+        }
+
+    }
+
+    .card-deck {
+        display: block !important;
+    }
+
+    .more-info {
+        .general {
+            display: block !important;
+
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+.slider{
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    .slide{
+        display: block;
+        text-align: center;
+        img{
+            width: 50%;
+            margin-left: 50%;
+            transform: translate(-50%);
+
+        }
+        h2 {
+            font-weight: 900;
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 20px;
+            line-height: normal;
+            font-family: Coco, Arial;
+
+
+        }
+
+        p {
+
+            font-weight: 400;
+            font-size: 12px;
+            color: #fff;
+            margin-bottom: 20px;
+            line-height: 25px;
+            font-family: Coco, Arial;
+
+        }
+        button {
+            background: #FF6400;
+            color: #ffff;
+            padding: 9px 15px;
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 700px;
+            font-family: Coco, Arial;
+            border-radius: 25px;
+            border: 1px solid white;
+            margin-right: 10px;
+            margin-bottom: 20px;
+        }
+
+
+        }
+}
+
+
+
+    .footer-info {
+        display: none;
+
+    }
+
+    .mobile {
+        display: block !important;
+
+        .mylinks {
+            display: none;
+            height: 100vh;
+            border: 1px solid white;
+
+            .top-mobile {
+                margin-top: 20px;
+                margin-left: 120px;
+                text-decoration: none;
+                font-size: 20px;
+                font-family: Coco, Arial;
+                font-weight: 600;
+                line-height: normal;
+
+
+            }
+
+            nav {
+                margin-left: 120px;
+
+                a {
+                    color: rgba(0, 0, 0, .24);
+                }
+
+
+            }
+
+            a {
+                display: block;
+                line-height: 40px;
+
+            }
+
+            .ferdi-biznes {
+                margin-left: 65px;
+                margin-top: 50px;
+                font-size: 30px;
+
+                .ferdi {
+                    border: 1px solid #FD891E;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                }
+
+                .biznes {
+                    color: black;
+                    padding: 5px 10px;
+
+                }
+            }
+
+
+
+
+
+        }
+
+    }
+
+.tab-content{
+
+    .branch{
+     display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+        .unvan{
+         order: -1!important;
+         flex: 1 0 100%!important;
+        }
+    }
+}
+
+.tab-links{
+    flex-wrap: wrap;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.active {
+    display: block !important;
+}
+
+
+
+
+.fixed-position {
+    position: fixed;
+}

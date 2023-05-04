@@ -1,0 +1,2537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/bootstrap.css">
+     <link rel="stylesheet" href="./assets/style/style.scss">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <div class="main-header container">
+        <header>
+            <div class="header-top d-flex justify-content-between text-center">
+                <div class="header-left d-flex">
+                    <a href="./home.html"><img src="./assets/image/logo.png" alt=""></a>
+                    <nav>
+                        <a href="./servicemap.html">Xidmət şəbəkəsi</a>
+                        <a href="">Bank haqqında</a>
+                        <a href="">Keşbek</a>
+                        <a href="">Tariflər </a>
+                        <a href="./hr.html">İnsan Resursları </a>
+                        <a href="">Bankla əlaqə və təkliflər</a>
+                    </nav>
+                </div>
+
+                <div class="header-right d-flex">
+                    <button>Fərdi</button>
+                    <button class="biznes">Biznes</button>
+                    <i class="fa-regular fa-moon w-25 h-75 p-2 ms-2 mode rounded-1" style="color: #fcfcfc;"></i>
+                    <span>ENG</span>
+                    <span>RUS</span>
+                    <button id="myBtn"><i id="search" class="fas fa-search fa-flip-horizontal search"></i></button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="container">
+                                <div class="header-top d-flex justify-content-between text-center bg-white">
+                                    <div class="header-left d-flex">
+                                        <a href="./home.html"><img src="./assets/image/logo.png" alt=""></a>
+                                        <nav>
+                                            <a href="./servicemap.html">Xidmət şəbəkəsi</a>
+                                            <a href="">Bank haqqında</a>
+                                            <a href="">Keşbek</a>
+                                            <a href="">Tariflər </a>
+                                            <a href="./hr.html">İnsan Resursları </a>
+                                            <a href="">Bankla əlaqə və təkliflər</a>
+                                        </nav>
+                                    </div>
+    
+                                    <div class="header-right d-flex">
+                                        <button>Fərdi</button>
+                                        <button class="biznes">Biznes</button>
+                                        <i onclick="Darkmode()" class="fa-regular fa-moon w-25 h-75 p-2 ms-2 mode rounded-1"
+                                            style="color: #fcfcfc;"></i>
+                                        <span>ENG</span>
+                                        <span>RUS</span>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-content">
+
+                                <i id="icon" class="fa-solid fa-xmark fa-2xl" style="color: black"></i>
+                                <p>Axtarış</p>
+                                <input type="text">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <div class="header-bottom d-flex justify-content-between">
+                <div class="header-bottom-left">
+                    <a href="./cards.html">Kartlar</a>
+                    <a href="">Kreditlər</a>
+                    <a href="">Əmanətlər</a>
+                    <a href="">Köçürmələr</a>
+                    <a href="">Rəqəmsal bankçılıq</a>
+                    <a href="">Əlavə xidmətlər</a>
+                </div>
+
+                <a href="./internet-banking.html">
+                    <div class="header-bottom-right">
+                        <button> <i class="fa-solid fa-phone" style="color: #FD891E;"></i> 117</button>
+    
+                        <button><i class="fa-solid fa-right-to-bracket" style="color: #FD891E;"></i>İnternet
+                            bankçılıq</button>
+                    </div>
+                </a>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </header>
+
+    </div>
+<!-- header end -->
+
+<!-- header-mobile section start -->
+<div class=" mobile mobile-container pt-4">
+    <div class="row text-center">
+        <div class="col-4">
+            <div id="main">
+                <button style="background-color: #fafafa; padding: 5px; border-radius: 50%;border: none;"
+                    onclick="Showmenu()"><i style="color: black;" class="fa fa-bars"></i></button>
+
+            </div>
+        </div>
+        <div class="col-4"> <a href="./home.html"><img style="width: 30px;" src="./assets/image/logo.png"
+                    alt=""></a></div>
+        <div class="col-4"> <button> <i class="fa-solid fa-phone w-25" style="color: #FD891E;"></i> 117</button>
+        </div>
+    </div>
+    <div class="mylinks">
+        <div class="ferdi-biznes d-flex">
+            <button class="ferdi">Fərdi</button>
+            <button class="biznes">Biznes</button>
+        </div>
+        <div class="top-mobile">
+            <a style="color: black;" href="./cards.html">Kartlar</a>
+            <a style="color: black;" href="#">Kreditlər</a>
+            <a style="color: black;" href="#">Köçürmələr</a>
+            <a style="color: black;" href="#">Rəqəmsal bankçılıq</a>
+            <a style="color: black;" href="#">Əlavə xidmətlər</a>
+        </div>
+
+        <nav>
+            <a style="color: rgba(0, 0, 0, .24);" href="./servicemap.html">Xidmət şəbəkəsi</a>
+            <a style="color: rgba(0, 0, 0, .24);" href="">Bank haqqında</a>
+            <a style="color:rgba(0, 0, 0, .24);" href="">Keşbek</a>
+            <a style="color: rgba(0, 0, 0, .24);" href="">Tariflər </a>
+            <a style="color: rgba(0, 0, 0, .24);" href="./hr.html">İnsan Resursları </a>
+            <a style="color: rgba(0, 0, 0, .24);" href="">Bankla əlaqə və təkliflər</a>
+        </nav>
+
+        <div style="margin-left: 120px; margin-top:10px ;">
+            <i class="fa-regular fa-moon  h-75 p-2 me-2 mode rounded-1"
+                style="color: #fcfcfc; background-color: black; width: 20px;"></i>
+            <i class="fas fa-search fa-flip-horizontal search text-black me-2"></i>
+            <span class="text-black me-2">ENG</span>
+            <span class="text-black me-2">RUS</span>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- header-mobile end -->
+
+
+    <!-- xidmet shebeki start -->
+    <div class="container">
+        <h1 class="xidmet-title">Xidmət şəbəkəsi</h1>
+
+        <div class="tab-menu mx-auto mt-5">
+            <div class="tab-links">
+                <button data-id="1" class="active">Bütün filiallar</button>
+                <button data-id="2">Şənbə filialları</button>
+                <button data-id="3">Biznes filiallar</button>
+                <button data-id="4">UTM</button>
+                <button data-id="5">Terminallar</button>
+            </div>
+
+            <div class="tab-content">
+                <div id="1">
+                    <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Bak%C4%B1%20%C5%9F.,%20R.Behbudov%20k%C3%BC%C3%A7.%2055,%20AZ1014+(Unibank)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                                href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe></div>
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div class="unvan">
+                            <h4>Mərkəzi ofis</h4>
+                            <p>Bakı ş., R.Behbudov küç. 55, AZ1014</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p > Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div class="unvan">
+                            <h4>Tovuz filialı</h4>
+                            <p>Tovuz ş., Sabir küç., 21</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Bərdə filialı</h4>
+                            <p>Bərdə ş., H. Əliyev pr., 72</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Xırdalan filialı</h4>
+                            <p>Xırdalan ş., M.Hüseynzadə küç., 6</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Quba filialı</h4>
+                            <p>Quba ş., Heydər Əliyev pr., 225, AZ4002</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div>
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Şəki filialı</h4>
+                            <p>Şəki ş., M.Ə.Rəsulzadə pr., 160A, AZ5500</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div>
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Lənkəran filialı</h4>
+                            <p>Lənkəran ş., Z.Əliyeva küç., ev 12, AZ4200</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div>
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Şəmkir filialı</h4>
+                            <p>Şəmkir ş., 20 Yanvar küç., 1, AZ5700</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Mingəçevir filialı</h4>
+                            <p>Mingəçevir ş., Heydər Əliyev pr., 36, AZ4500</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Yasamal filialı</h4>
+                            <p>Bakı ş., Bəsti Bağırova küç., 2, AZ1065</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Gəncə filialı</h4>
+                            <p>Gəncə ş., Atatürk pr., 249, AZ2003</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Kəpəz filialı</h4>
+                            <p>Gəncə şəhəri, Kəpəz r-nu, Ş.Hüseynov küç., 2, AZ2011</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> İsmayıllı filialı</h4>
+                            <p>İsmayıllı şəh., M.F. Axundov küç., 18A</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Neftçilər filialı</h4>
+                            <p>Bakı, Nizami r-nu., Qara Qarayev pr., 66, AZ1096</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Nərimanov filialı</h4>
+                            <p>Bakı ş., Təbriz küç., 94, AZ1072</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div>
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Sumqayıt filialı</h4>
+                            <p>N.Nərimanov küç, ev.2/59, AZ5007</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Əcəmi filialı</h4>
+                            <p>Bakı ş., 5-ci mkr, A. Məhərrəmov 21B, AZ1102</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>10 saylı filial (Əhmədli)</h4>
+                            <p>Bakı ş., M.Hadi küç., 33, AZ1129</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div>
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>15 saylı filial (28 May)</h4>
+                            <p>Bakı ş., Nəsimi r-nu, D. Əliyeva küç., 243 , AZ1010</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div>
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>15 saylı filial (28 May)</h4>
+                            <p>Bakı ş., Nəsimi r-nu, D. Əliyeva küç., 243 , AZ1010</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 13 saylı filial (İnşaatçılar)</h4>
+                            <p>Bakı ş., Yasamal r-nu, Şərifzadə küç., 174, AZ 1138</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div>
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 16 saylı filial (İçərişəhər)</h4>
+                            <p>Bak ş., Yasamal r-nu, M.Müşviq küç., 15/17 AZ 1138</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 17 saylı (Sahil) filial</h4>
+                            <p>Bakı ş., Səbail r-nu, Bülbül pr., 10, AZ1022</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 19 saylı (Bakıxanov) filial</h4>
+                            <p>Bakı ş., Bakıxanov qəs., Sülh küç., 14/2, AZ1132</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 11 saylı (Dərnəgül) filialı</h4>
+                            <p>Bakı ş., Ə.Rəcəbli küç., 1/15</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Mərdəkan filialı</h4>
+                            <p>Xəzər r-nu., Mərdəkan qəs., Sergey Yesenin küç., 100</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Salyan filialı</h4>
+                            <p>Salyan r-nu, Y. Qasımov, 2</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div>
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Xaçmaz filialı</h4>
+                            <p>Xaçmaz ş., N. Nərimanov küç., 19A</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Qara Qarayev filialı</h4>
+                            <p>A.Manafov küçəsi 9 (“Sevinc” kinoteatrın yanı)</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Unibank - Biznes Mərkəzi</h4>
+                            <p>Xocalı prospekti 44 (Xətai metrostansiyasının yaxınlığı)</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div id="2" class="d-none">
+                    <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Bak%C4%B1%20%C5%9F.,%20R.Behbudov%20k%C3%BC%C3%A7.%2055,%20AZ1014+(Unibank)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                                href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe></div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Rəqəmsal filial</h4>
+                            <p>S.S.Axundov küç., 42</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Neftçilər filialı</h4>
+                            <p>Bakı, Nizami r-nu., Qara Qarayev pr., 66, AZ1096</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Sumqayıt filialı</h4>
+                            <p> N.Nərimanov küç, ev.2/59, AZ5007</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Əcəmi filialı</h4>
+                            <p>Bakı ş., 5-ci mkr, A. Məhərrəmov 21B, AZ1102</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 15 saylı filial (28 May)</h4>
+                            <p>Bakı ş., Nəsimi r-nu, D. Əliyeva küç., 243 , AZ1010</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>13 saylı filial (İnşaatçılar)</h4>
+                            <p>Bakı ş., Yasamal r-nu, Şərifzadə küç., 174, AZ 1138</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div>
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 19 saylı (Bakıxanov) filial</h4>
+                            <p>Bakı ş., Bakıxanov qəs., Sülh küç., 14/2, AZ1132</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Mərdəkan filialı</h4>
+                            <p>Xəzər r-nu., Mərdəkan qəs., Sergey Yesenin küç., 100</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+                <div id="3" class="d-none">
+                    <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Bak%C4%B1%20%C5%9F.,%20R.Behbudov%20k%C3%BC%C3%A7.%2055,%20AZ1014+(Unibank)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                                href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe></div>
+
+                    <div class="branch d-flex justify-content-between mt-3  ">
+                        <div>
+                            <h4>Mərkəzi ofis</h4>
+                            <p>Bakı ş., R.Behbudov küç. 55, AZ1014</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Tovuz filialı</h4>
+                            <p>Tovuz ş., Sabir küç., 21</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Bərdə filialı</h4>
+                            <p>Bərdə ş., H. Əliyev pr., 72</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Xırdalan filialı</h4>
+                            <p>Xırdalan ş., M.Hüseynzadə küç., 6</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Quba filialı</h4>
+                            <p>Quba ş., Heydər Əliyev pr., 225, AZ4002</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Şəki filialı</h4>
+                            <p>Şəki ş., M.Ə.Rəsulzadə pr., 160A, AZ5500</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Lənkəran filialı</h4>
+                            <p>Lənkəran ş., Z.Əliyeva küç., ev 12, AZ4200</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Şəmkir filialı</h4>
+                            <p>Şəmkir ş., 20 Yanvar küç., 1, AZ5700</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Mingəçevir filialı</h4>
+                            <p>Mingəçevir ş., Heydər Əliyev pr., 36, AZ4500</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Yasamal filialı</h4>
+                            <p>Bakı ş., Bəsti Bağırova küç., 2, AZ1065</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Gəncə filialı</h4>
+                            <p>Gəncə ş., Atatürk pr., 249, AZ2003</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Kəpəz filialı</h4>
+                            <p>Gəncə şəhəri, Kəpəz r-nu, Ş.Hüseynov küç., 2, AZ2011</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> İsmayıllı filialı</h4>
+                            <p>İsmayıllı şəh., M.F. Axundov küç., 18A</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Neftçilər filialı</h4>
+                            <p>Bakı, Nizami r-nu., Qara Qarayev pr., 66, AZ1096</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Nərimanov filialı</h4>
+                            <p>Bakı ş., Təbriz küç., 94, AZ1072</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Sumqayıt filialı</h4>
+                            <p>N.Nərimanov küç, ev.2/59, AZ5007</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Əcəmi filialı</h4>
+                            <p>Bakı ş., 5-ci mkr, A. Məhərrəmov 21B, AZ1102</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>10 saylı filial (Əhmədli)</h4>
+                            <p>Bakı ş., M.Hadi küç., 33, AZ1129</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>15 saylı filial (28 May)</h4>
+                            <p>Bakı ş., Nəsimi r-nu, D. Əliyeva küç., 243 , AZ1010</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>15 saylı filial (28 May)</h4>
+                            <p>Bakı ş., Nəsimi r-nu, D. Əliyeva küç., 243 , AZ1010</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 13 saylı filial (İnşaatçılar)</h4>
+                            <p>Bakı ş., Yasamal r-nu, Şərifzadə küç., 174, AZ 1138</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div style="line-height: 0%;">
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 16 saylı filial (İçərişəhər)</h4>
+                            <p>Bak ş., Yasamal r-nu, M.Müşviq küç., 15/17 AZ 1138</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 17 saylı (Sahil) filial</h4>
+                            <p>Bakı ş., Səbail r-nu, Bülbül pr., 10, AZ1022</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 19 saylı (Bakıxanov) filial</h4>
+                            <p>Bakı ş., Bakıxanov qəs., Sülh küç., 14/2, AZ1132</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> 11 saylı (Dərnəgül) filialı</h4>
+                            <p>Bakı ş., Ə.Rəcəbli küç., 1/15</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Mərdəkan filialı</h4>
+                            <p>Xəzər r-nu., Mərdəkan qəs., Sergey Yesenin küç., 100</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Salyan filialı</h4>
+                            <p>Salyan r-nu, Y. Qasımov, 2</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Xaçmaz filialı</h4>
+                            <p>Xaçmaz ş., N. Nərimanov küç., 19A</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Qara Qarayev filialı</h4>
+                            <p>A.Manafov küçəsi 9 (“Sevinc” kinoteatrın yanı)</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div >
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Unibank - Biznes Mərkəzi</h4>
+                            <p>Xocalı prospekti 44 (Xətai metrostansiyasının yaxınlığı)</p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <i class="fa-regular fa-clock fa-2xl me-2" style="color: #ff6400;"></i>
+                            <div>
+                                <p> Bazar ertəsi - Cümə 9:00 – 18:00* </p>
+                                <p>Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                            </div>
+
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+                <div id="4" class="d-none">
+                    <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Bak%C4%B1%20%C5%9F.,%20R.Behbudov%20k%C3%BC%C3%A7.%2055,%20AZ1014+(Unibank)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                                href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe></div>
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+
+                            <h4> "Bolmart" (9-cu mikrorayon)</h4>
+                            <p>Bakı, Mir Cəlal küç. 103</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>(AZN,USD)</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Garage" parking</h4>
+                            <p> Səbail rayonu. Azərbaycan pr 2</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+                            <p>(AZN,USD)</p>
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Aptek Dokta"</h4>
+                            <p> Gəncə ş, Nizami / N.Nərimanov küç.kəsişməsi.</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Nizami Mall"</h4>
+                            <p> Bakı ş, Yasamal r-nu. Salatın Əsgərova küç.</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Araz" Superstore</h4>
+                            <p> Sumqayıt, 9 mkr, Ü.Hacıbəyov 23</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Quru Təmizləmə"</h4>
+                            <p> Badamdar şos. 105 ("Quru Təmizləmə")</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Baku Store"</h4>
+                            <p>Maştağa qəsəbəsi, H.Heybətov küç.,13</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Bolmart" Nəsimi</h4>
+                            <p> Bakı,Nəsimi rayonu, Səməd Vurğun küç. 60</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Bravo"</h4>
+                            <p> Bakı ş, Binəqədi r, Ş.Məmmədova küç.5</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Atatürk prospekti 41</h4>
+                            <p> Nərimanov rayonu, Atatürk prospekti 41</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Araz" market</h4>
+                            <p> Binə qəsəbəsi, Əli İsazadə küçəsi 5 ("Araz" market)</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Bayıl qəs. 20-ci sahə ("Araz" market)</h4>
+                            <p> Bayıl qəs. 20-ci sahə ("Araz" market)</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Bravo" hipermarket
+                            </h4>
+                            <p> Ramiz Quliyev küç. 4</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Bravo" hipermarket</h4>
+                            <p>Babək prospekti</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Azure" biznes mərkəzi</h4>
+                            <p> Nobel pr. 15</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Gold Mobile"</h4>
+                            <p>Lökbatan ŞTQ, 28 may küç., ev 7</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+
+                            <h4> Elmlər Akademiyası m/s
+                            </h4>
+                            <p> Hüseyn Cavid pr.</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Qurtuluş 93
+                            </h4>
+                            <p> Masazır (Qurtuluş 93)</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Bakı-Sumqayıt yolu ( "Araz" market, Saray )
+                            </h4>
+                            <p> Abşeron rayonu, Saray qəsəbəsi</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>Sumqayıt ş. 2-ci mkr Sülh küç. ("None stop" telecom)
+
+                            </h4>
+                            <p>Sumqayıt ş. 2-ci mkr Sülh küç</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>"Bakcell"
+                            </h4>
+                            <p> Nəsimi rayonu, Azadlıq prospekti 33 ("Bakcell")</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+
+
+                            <h4> Neftçilər m/s
+                            </h4>
+                            <p>
+                                Qara Qarayev prospekti</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Rasim İmanov ev 22A ("Zagulba Mall")
+                            </h4>
+                            <p>
+                                Xəzər rayonu, Buzovna ŞTQ, Rasim İmanov küç.,ev 22A ("Zagulba Mall")</p>
+
+                        </div>
+
+
+                        <div class="d-flex">
+                            <i class="fa-solid fa-circle-info fa-2xl me-2" style="color: #ff6400;"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div id="5" class="d-none">
+                    <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Bak%C4%B1%20%C5%9F.,%20R.Behbudov%20k%C3%BC%C3%A7.%2055,%20AZ1014+(Unibank)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                                href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe></div>
+
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+
+
+                            <h4> Mərkəzi ofis
+                            </h4>
+                            <p>
+                                Mərkəzi ofis</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>
+                                “Bərdə” filialı
+                            </h4>
+                            <p>
+
+                                Bərdə şəhəri, Nizami küçəsi 72 (İcra Hakimiyyətinə yaxın) Tel.: 117
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+
+                            <h4> "Xırdalan" filialı
+                            </h4>
+                            <p>
+                                Xırdalan şəhəri, M.Hüseynzadə küçəsi, 6 , (Yeni bazarın qarşısı) Tel.: 117
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+
+
+
+
+                            <h4> 11 saylı (Dərnəgül) filialı
+                            </h4>
+                            <p>
+                                Bakı ş., Ə.Rəcəbli kuçəsi 1, (“Royal” otel, “Şəki” restoranına yaxın) bina 15 Tel.: 117
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+
+
+
+                            <h4> 17 saylı (Sahil) filialı
+                            </h4>
+                            <p>
+                                Bülbül pr., 10 , (Sahil metrosunun yanı) Bakı ş., Səbail r-nu, AZ 1022 Tel.: 117</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+
+                            <h4> "İsmayıllı" filialı
+                            </h4>
+                            <p>
+                                İsmayıllı şəh., M.F. Axundov küç, 18A , (Təhsil şöbəsinə yaxın) Tel.: 117</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4>
+                                “Mərdəkan” filialı
+                            </h4>
+                            <p>Xəzər rayonu, Mərdəkan qəsəbəsi, Sergey Yesenin küçəsi, 100 Tel.: 117</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Quba filialı
+
+                            </h4>
+                            <p>
+                                Heydər Əliyev prosp. 225, ( Bakı-Quba yolunun sağı, köhnə avtovağzala çatmamış) Quba ş.,
+                                AZ 4002, Tel.: 117</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Kəpəz" filialı
+                            </h4>
+                            <p>Gəncə şəhəri, (Texnologiya Universitetinin qarşısı) AZ 2011 Kəpəz rayonu, Ş.Hüseynov
+                                küç.,2 Tel.: 117</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Mingəçevir" filialı
+                            </h4>
+                            <p>
+                                Heydər Əliyev pr 36 saylı binanın qarşısı (2 saylı Notariat Kontorunun yanı) Mingəçevir
+                                ş., AZ 4500 Tel.: 117</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Şəmkir" filialı
+                            </h4>
+                            <p>
+                                20 Yanvar küç., 1 , (İcra hakimiyyətinə yaxın) Şəmkir ş., AZ5700 Tel.: 117</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Bravo" Yeni Yasamal
+                            </h4>
+                            <p>
+                                Yeni Yasamal yaşayış massivi, Əsəd Əhmədov küç.</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Bravo" hipermarket Əhmədli
+                            </h4>
+                            <p>
+
+                                Ramiz Quliyev küç. 4</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> BOA (Gəncə)
+                            </h4>
+                            <p>Gəncə şəh. Əttarlar küç. 10A</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> Rəqəmsal filial
+                            </h4>
+                            <p> S.S. Axundov küç., 42 Tel: 117</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Tovuz" fililalı
+                            </h4>
+                            <p>Tovuz şəhəri, Sabir küçəsi 21 (Mərkəzi poçtla üzbəüz) Tel.: 117</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Əcəmi" filialı
+                            </h4>
+                            <p>A. Məhərrəmov 21 B (Neptun supermarketinin yanı) Bakı ş., 5-ci mkr, AZ 1102, Tel.: 117
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Bravo" hipermarket Əhmədli
+                            </h4>
+                            <p>
+
+                                Ramiz Quliyev küç. 4</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="branch d-flex justify-content-between mt-3">
+                        <div>
+                            <h4> "Şəki" filialı
+                            </h4>
+                            <p>
+                                M.Ə.Rəsulzadə prospekti, 160A, (Avtovağzala yaxın) Şəki ş., AZ 5500 Tel.: 117</p>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <p style="background-color: #ff6400; width: 100%; padding: 20px; border-radius: 10px; color: #ffff; font-size: 16px; font-family: Coco,Arial; font-weight: 400;"><i class="fa-solid fa-circle-info me-2" style="color: #ffff;"></i> Qeyd: 17:00-dan sonra kart və kredit üzrə xidmətlər
+            göstərilir.</p>
+
+    </div>
+
+<!-- xidmet shebekesi end -->
+
+ <!-- basket section start -->
+ <a href="./basket.html">
+    <div class="basket">
+        <i class="fa-solid fa-basket-shopping fa-lg" style="color: #ffffff;"><span id="count">0</span></i>
+    </div>
+</a>
+<!-- basket end -->
+
+<!-- footer start -->
+    <div class="container my-5">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-black">
+            <!-- Grid container -->
+            <div class="container">
+                <!-- Section: Links -->
+                <section class="footer-info fs-1-5 font-coco">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">Kartlar</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Kartlar</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Debet kartlar</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Digər</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">Kreditlər</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Nağd</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Mikro</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Ipoteka</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">
+                                Əmanətlər
+                            </h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Müddətli</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Proqressiv</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Yığım</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Faizlər əvvəlcədən</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Topla</a>
+                            </p>
+                        </div>
+
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">Köçürmələr</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Ölkəxarici</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Ölkədaxili</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class="mb-4 font-weight-bold">Rəqəmsal bankçılıq</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">UBank</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">İnternet bankçılıq</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Şəxsi kabinet</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Unimiles şəxsi kabinet</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Onlayn kredit ödənişi</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Onlayn kredit müraciəti</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">Əlavə xidmətlər</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Hesablaşma-kassa xidməti</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">POS terminal / Smart kassa</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Depozit qutuları</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Onlayn ticarət (eCommerce)</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">Bank haqqında</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Rəhbərlik</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Müxbir hesablar</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Təklif və Şikayətlər</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">İnsan resursları</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Hesabatlar</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Digər sənədlər</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+
+
+
+                <!-- Grid column -->
+                <div class="col-lg-auto text-center text-md-start">
+                    <!-- Apple -->
+
+                    <a href="https://itunes.apple.com/ru/app/unibank-mobile/id1073632425"><i
+                            class="fa-brands fa-apple m-1"
+                            style="color: #ffffff; background: #FF6400; width: 24px; height: 24px; padding: 4px; border-radius: 50%;"></i></a>
+
+                    <!-- Playmarket -->
+                    <a href="https://play.google.com/store/apps/details?id=az.unibank.mbanking"><i
+                            class="fa-solid fa-robot m-1"
+                            style="color: #ffffff; background: #FF6400; width: 24px; height: 24px;  padding: 4px; border-radius: 50%"></i></a>
+
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/unibank.az/"><i class="fa-brands fa-facebook-f m-1"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%;"></i></a>
+
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/unibank"><i class="fa-brands fa-twitter m-1"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%"></i></a>
+                    <!-- Linkedin -->
+                    <a href="https://www.linkedin.com/company/unibankazerbaijan/"><i class="fa-brands fa-linkedin-in m-1"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%;"></i></a>
+
+
+                    <!-- Youtube -->
+                    <a href="https://www.youtube.com/c/UnibankAze"><i class="fa-brands fa-youtube m-1"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%;"></i></a>
+
+
+                    <!-- Instagram-->
+                    <a href="https://www.instagram.com/unibank.az/"><i class="fa-brands fa-instagram m-0"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%;"></i></a>
+
+
+                    <!--Telegram -->
+                    <a href="https://t.me/UnibankAZ"><i class="fa-brands fa-telegram m-1"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%;"></i></a>
+
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="my-3">
+
+                <!-- Section: Copyright -->
+                <section class=" pt-0">
+                    <div class="row d-flex align-items-center">
+                        <!-- Grid column -->
+                        <div class="col-md-7 col-lg-8 text-center text-md-start">
+                            <!-- Copyright -->
+                            <div class="p-3 fs-1-5 font-coco">
+                                © 2023, Unibank - Sənin Bankın
+                                <p style="font-weight: 200; margin-top: 5px; font-size: 12px; font-family: Coco,Arial;">
+                                    Unibank Azərbaycan Respublikası Mərkəzi Bankının 73 saylı 14 dekabr 2010-cu il
+                                    tarixli
+                                    lisenziyası əsasında fəaliyyət göstərir.
+                                <p>Bütün hüquqlar qorunur.</p>
+                                </p>
+
+
+                            </div>
+                            <!-- Copyright -->
+                        </div>
+                        <!-- Grid column -->
+                        <div class="col-lg-3 d-flex w-25 text-center text-md-end " style="margin-left: -70px;">
+                            <!--Adif -->
+                            <a href="http://adif.az/"><img src="./assets/image/adif.jpg" alt=""></a>
+
+                            <!-- E-gov -->
+                            <a href="https://www.e-gov.az/"><img src="./assets/image/e-gov.jpg" alt=""></a>
+
+                            <!-- Infobank -->
+                            <a href="https://infobank.az/"><img src="./assets/image/infobank.jpg" alt=""></a>
+
+                            <!-- Portal -->
+                            <a href="https://bizimpullar.az/"><img src="./assets/image/portal.jpg" alt=""></a>
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                </section>
+                <!-- Section: Copyright -->
+            </div>
+            <!-- Grid container -->
+        </footer>
+        <!-- Footer -->
+    </div>
+
+<!-- footer end -->
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./assets/JS/exchange.js"></script>
+    <script src="./assets/JS/app.js"></script>
+    <script src="./assets/JS/servicemap.js"></script>
+
+</body>
+
+</html>

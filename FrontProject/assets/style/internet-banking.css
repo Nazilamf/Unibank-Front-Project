@@ -1,0 +1,274 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    color: #fff;
+  }
+  h1 {
+    padding-bottom: 30px;
+    font-weight: 900;
+    font-size: 35px;
+  }
+  .form {
+    width: 30%;
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  .form input {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border: none;
+    width: 100%;
+    background-position: 0px 30px; 
+    background-image: url('https://online.unibank.az/ibank/resources/imgs/icons/account.png');
+    background-repeat: no-repeat;
+   
+  }
+  .form label {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: Coco,Arial;
+    color: #FF6400;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid rgba(50,50,50,.5);
+  }
+  .form label::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #FF6400;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+  }
+  
+  .content-name {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+  }
+  .form input:focus {
+    outline: none;
+  }
+  .form input:focus + .label-name .content-name,
+  .form input:valid + .label-name .content-name {
+    transform: translateY(-150%);
+    font-size: 14px;
+    left: 0px;
+    color: #FF6400;
+  }
+  .form input:focus + .label-name::after,
+  .form input:valid + .label-name::after {
+    transform: translateX(0%);
+  }
+  
+
+  .form .input-second {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border: none;
+    width: 100%;
+    background-position: 0px 30px; 
+    background-image: url('https://online.unibank.az/ibank/resources/imgs/icons/lock.png');
+    background-repeat: no-repeat;
+   
+  }
+  .form .label-name1 {
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+    left: 0px;
+    font-size: 12px;
+    font-family: Coco,Arial;
+    color: #FF6400;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid rgba(50,50,50,.5);
+  }
+  .form .label-name1::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #FF6400;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+  }
+  
+  .content-name1{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+  }
+  .form .input-second:focus {
+    outline: none;
+  }
+  .form .input-second:focus + .label-name1 .content-name1,
+  .form .input-second:valid + .label-name1 .content-name1 {
+    transform: translateY(-150%);
+    font-size: 14px;
+    left: 0px;
+    color: #FF6400;
+  }
+  .form .input-second:focus + .label-name1::after,
+  .form .input-second:valid + .label-name1::after {
+    transform: translateX(0%);
+  }
+  
+
+  
+
+  .form .input-third {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border: none;
+    width: 100%;
+    background-position: 0px 30px; 
+    background-image: url('https://online.unibank.az/ibank/captcha?attr=22d2cd263c');
+    background-repeat: no-repeat;
+   
+  }
+  .form .label-name2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: Coco,Arial;
+    color: #FF6400;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid rgba(50,50,50,.5);
+  }
+  .form .label-name2::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #FF6400;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+  }
+  
+  .content-name2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+  }
+  .form .input-third:focus {
+    outline: none;
+  }
+  .form .input-third:focus + .label-name2 .content-name2,
+  .form .input-third:valid + .label-name2 .content-name2 {
+    transform: translateY(-150%);
+    font-size: 14px;
+    left: 0px;
+    color: #FF6400;
+  }
+  .form .input-third:focus + .label-name2::after,
+  .form .input-third:valid + .label-name2::after {
+    transform: translateX(0%);
+  }
+  
+
+  
+
+
+  .active{
+    border:1px solid #FF6400;
+    text-decoration: underline;
+  }
+
+  .active-dots{
+ color: #FF6400!important;
+  }
+
+
+  .form .input-four {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border: none;
+    width: 100%;
+    background-position: 0px 30px; 
+    background-image: url('https://online.unibank.az/ibank/resources/imgs/icons/login-mobile.png');
+    background-repeat: no-repeat;
+   
+  }
+  .form .label-name4 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: Coco,Arial;
+    color: #FF6400;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid rgba(50,50,50,.5);
+  }
+  .form .label-name4::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #FF6400;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+  }
+  
+  .content-name4{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+  }
+  .form .input-four:focus {
+    outline: none;
+  }
+  .form .input-four:focus + .label-name4 .content-name4,
+  .form .input-four:valid + .label-name4 .content-name4 {
+    transform: translateY(-150%);
+    font-size: 14px;
+    left: 0px;
+    color: #FF6400;
+  }
+  .form .input-four:focus + .label-name4::after,
+  .form .input-four:valid + .label-name4::after {
+    transform: translateX(0%);
+  }
+  

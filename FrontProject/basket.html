@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/bootstrap.css">
+    <link rel="stylesheet" href="./assets/style/style.scss">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header section start -->
+    <div class=" main-header container">
+        <header>
+            <div class="header-top d-flex justify-content-between text-center">
+                <div class="header-left d-flex">
+                    <a href="./home.html"><img src="./assets/image/logo.png" alt=""></a>
+                    <nav>
+                        <a href="./servicemap.html">Xidmət şəbəkəsi</a>
+                        <a href="">Bank haqqında</a>
+                        <a href="">Keşbek</a>
+                        <a href="">Tariflər </a>
+                        <a href="./hr.html">İnsan Resursları </a>
+                        <a href="">Bankla əlaqə və təkliflər</a>
+                    </nav>
+                </div>
+
+                <div class="header-right d-flex">
+                    <button>Fərdi</button>
+                    <button class="biznes">Biznes</button>
+                    <i class="fa-regular fa-moon w-25 h-75 p-2 ms-2 mode rounded-1" style="color: #fcfcfc;"></i>
+                    <span>ENG</span>
+                    <span>RUS</span>
+                    <button id="myBtn"><i id="search" class="fas fa-search fa-flip-horizontal search"></i></button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="container">
+                                <div class="header-top d-flex justify-content-between text-center bg-white">
+                                    <div class="header-left d-flex">
+                                        <a href="./home.html"><img src="./assets/image/logo.png" alt=""></a>
+                                        <nav>
+                                            <a href="./servicemap.html">Xidmət şəbəkəsi</a>
+                                            <a href="">Bank haqqında</a>
+                                            <a href="">Keşbek</a>
+                                            <a href="">Tariflər </a>
+                                            <a href="./hr.html">İnsan Resursları </a>
+                                            <a href="">Bankla əlaqə və təkliflər</a>
+                                        </nav>
+                                    </div>
+
+                                    <div class="header-right d-flex">
+                                        <button>Fərdi</button>
+                                        <button class="biznes">Biznes</button>
+                                        <i onclick="Darkmode()"
+                                            class="fa-regular fa-moon w-25 h-75 p-2 ms-2 mode rounded-1"
+                                            style="color: #fcfcfc;"></i>
+                                        <span>ENG</span>
+                                        <span>RUS</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-content">
+
+                                <i id="icon" class="fa-solid fa-xmark fa-2xl" style="color: black"></i>
+                                <p>Axtarış</p>
+                                <input type="text">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <div class="header-bottom d-flex justify-content-between">
+                <div class="header-bottom-left">
+                    <a href="./cards.html">Kartlar</a>
+                    <a href="">Kreditlər</a>
+                    <a href="">Əmanətlər</a>
+                    <a href="">Köçürmələr</a>
+                    <a href="">Rəqəmsal bankçılıq</a>
+                    <a href="">Əlavə xidmətlər</a>
+                </div>
+
+                <a href="./internet-banking.html">
+                    <div class="header-bottom-right">
+                        <button> <i class="fa-solid fa-phone" style="color: #FD891E;"></i> 117</button>
+
+                        <button><i class="fa-solid fa-right-to-bracket" style="color: #FD891E;"></i>İnternet
+                            bankçılıq</button>
+                    </div>
+                </a>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </header>
+
+    </div>
+    <!-- header section end -->
+
+    <!-- header-mobile section start -->
+    <div class=" mobile mobile-container pt-4">
+        <div class="row text-center">
+            <div class="col-4">
+                <div id="main">
+                    <button style="background-color: #fafafa; padding: 5px; border-radius: 50%;border: none;"
+                        onclick="Showmenu()"><i style="color: black;" class="fa fa-bars"></i></button>
+
+                </div>
+            </div>
+            <div class="col-4"> <a href="./home.html"><img style="width: 30px;" src="./assets/image/logo.png"
+                        alt=""></a></div>
+            <div class="col-4"> <button> <i class="fa-solid fa-phone w-25" style="color: #FD891E;"></i> 117</button>
+            </div>
+        </div>
+        <div class="mylinks">
+            <div class="ferdi-biznes d-flex">
+                <button class="ferdi">Fərdi</button>
+                <button class="biznes">Biznes</button>
+            </div>
+            <div class="top-mobile">
+                <a style="color: black;" href="./cards.html">Kartlar</a>
+                <a style="color: black;" href="#">Kreditlər</a>
+                <a style="color: black;" href="#">Köçürmələr</a>
+                <a style="color: black;" href="#">Rəqəmsal bankçılıq</a>
+                <a style="color: black;" href="#">Əlavə xidmətlər</a>
+            </div>
+
+            <nav>
+                <a style="color: rgba(0, 0, 0, .24);" href="./servicemap.html">Xidmət şəbəkəsi</a>
+                <a style="color: rgba(0, 0, 0, .24);" href="">Bank haqqında</a>
+                <a style="color:rgba(0, 0, 0, .24);" href="">Keşbek</a>
+                <a style="color: rgba(0, 0, 0, .24);" href="">Tariflər </a>
+                <a style="color: rgba(0, 0, 0, .24);" href="./hr.html">İnsan Resursları </a>
+                <a style="color: rgba(0, 0, 0, .24);" href="">Bankla əlaqə və təkliflər</a>
+            </nav>
+
+            <div style="margin-left: 120px; margin-top:10px ;">
+                <i class="fa-regular fa-moon  h-75 p-2 me-2 mode rounded-1"
+                    style="color: #fcfcfc; background-color: black; width: 20px;"></i>
+                <i class="fas fa-search fa-flip-horizontal search text-black me-2"></i>
+                <span class="text-black me-2">ENG</span>
+                <span class="text-black me-2">RUS</span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- header-mobile end -->
+
+    <div class="alert alert-danger text-center fw-bold text-white  mt-5" style="background-color: #FD891E;">
+        Səbətiniz boşdur
+    </div>
+    <section id="cards_list">
+        <div class="container">
+            <h3>Məhsul sayi: <span id="cnt"></span></h3>
+            <h3>Ümümi məbləğ: <span id="sum"></span>  <span>AZN</span></h3>
+            <div class="row rowlist ">
+
+
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer start -->
+    <div class="container my-5">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-black">
+            <!-- Grid container -->
+            <div class="container">
+                <!-- Section: Links -->
+                <section class="footer-info fs-1-5 font-coco">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">Kartlar</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Kartlar</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Debet kartlar</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Digər</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">Kreditlər</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Nağd</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Mikro</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Ipoteka</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">
+                                Əmanətlər
+                            </h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Müddətli</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Proqressiv</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Yığım</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Faizlər əvvəlcədən</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Topla</a>
+                            </p>
+                        </div>
+
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">Köçürmələr</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Ölkəxarici</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Ölkədaxili</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class="mb-4 font-weight-bold">Rəqəmsal bankçılıq</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">UBank</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">İnternet bankçılıq</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Şəxsi kabinet</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Unimiles şəxsi kabinet</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Onlayn kredit ödənişi</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Onlayn kredit müraciəti</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">Əlavə xidmətlər</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Hesablaşma-kassa xidməti</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">POS terminal / Smart kassa</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Depozit qutuları</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Onlayn ticarət (eCommerce)</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+
+
+                        <!-- Grid column -->
+                        <div class="col-lg-1-5 mx-auto mt-3">
+                            <h6 class=" mb-4 font-weight-bold">Bank haqqında</h6>
+                            <p>
+                                <a class="text-black text-decoration-none">Rəhbərlik</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Müxbir hesablar</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Təklif və Şikayətlər</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">İnsan resursları</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Hesabatlar</a>
+                            </p>
+                            <p>
+                                <a class="text-black text-decoration-none">Digər sənədlər</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+
+
+
+                <!-- Grid column -->
+                <div class="col-lg-auto text-center text-md-start">
+                    <!-- Apple -->
+
+                    <a href="https://itunes.apple.com/ru/app/unibank-mobile/id1073632425"><i
+                            class="fa-brands fa-apple m-1"
+                            style="color: #ffffff; background: #FF6400; width: 24px; height: 24px; padding: 4px; border-radius: 50%;"></i></a>
+
+                    <!-- Playmarket -->
+                    <a href="https://play.google.com/store/apps/details?id=az.unibank.mbanking"><i
+                            class="fa-solid fa-robot m-1"
+                            style="color: #ffffff; background: #FF6400; width: 24px; height: 24px;  padding: 4px; border-radius: 50%"></i></a>
+
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/unibank.az/"><i class="fa-brands fa-facebook-f m-1"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%;"></i></a>
+
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/unibank"><i class="fa-brands fa-twitter m-1"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%"></i></a>
+                    <!-- Linkedin -->
+                    <a href="https://www.linkedin.com/company/unibankazerbaijan/"><i
+                            class="fa-brands fa-linkedin-in m-1"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%;"></i></a>
+
+
+                    <!-- Youtube -->
+                    <a href="https://www.youtube.com/c/UnibankAze"><i class="fa-brands fa-youtube m-1"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%;"></i></a>
+
+
+                    <!-- Instagram-->
+                    <a href="https://www.instagram.com/unibank.az/"><i class="fa-brands fa-instagram m-0"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%;"></i></a>
+
+
+                    <!--Telegram -->
+                    <a href="https://t.me/UnibankAZ"><i class="fa-brands fa-telegram m-1"
+                            style="color: #ffffff; background: #A1A1A1; width: 24px; height: 24px;  padding: 4px; border-radius: 50%;"></i></a>
+
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="my-3">
+
+                <!-- Section: Copyright -->
+                <section class=" pt-0">
+                    <div class="row d-flex align-items-center">
+                        <!-- Grid column -->
+                        <div class="col-md-7 col-lg-8 text-center text-md-start">
+                            <!-- Copyright -->
+                            <div class="p-3 fs-1-5 font-coco">
+                                © 2023, Unibank - Sənin Bankın
+                                <p style="font-weight: 200; margin-top: 5px; font-size: 12px; font-family: Coco,Arial;">
+                                    Unibank Azərbaycan Respublikası Mərkəzi Bankının 73 saylı 14 dekabr 2010-cu il
+                                    tarixli
+                                    lisenziyası əsasında fəaliyyət göstərir.
+                                <p>Bütün hüquqlar qorunur.</p>
+                                </p>
+
+
+                            </div>
+                            <!-- Copyright -->
+                        </div>
+                        <!-- Grid column -->
+                        <div class="col-lg-3 d-flex w-25 text-center text-md-end " style="margin-left: -70px;">
+                            <!--Adif -->
+                            <a href="http://adif.az/"><img src="./assets/image/adif.jpg" alt=""></a>
+
+                            <!-- E-gov -->
+                            <a href="https://www.e-gov.az/"><img src="./assets/image/e-gov.jpg" alt=""></a>
+
+                            <!-- Infobank -->
+                            <a href="https://infobank.az/"><img src="./assets/image/infobank.jpg" alt=""></a>
+
+                            <!-- Portal -->
+                            <a href="https://bizimpullar.az/"><img src="./assets/image/portal.jpg" alt=""></a>
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                </section>
+                <!-- Section: Copyright -->
+            </div>
+            <!-- Grid container -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- footer end -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/JS/exchange.js"></script>
+    <script src="./assets/JS/app.js"></script>
+    <script src="./assets/JS/basket.js"></script>
+</body>
+
+</html>

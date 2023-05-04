@@ -1,0 +1,308 @@
+.hr {
+    text-align: center;
+
+    h1 {
+        @include active-title
+    }
+
+    .tab-content {
+
+        .cards {
+
+            .general-info {
+                background-color: #fafafa;
+                text-align: center;
+
+
+
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #ff6400;
+                    color: #ffff !important;
+
+
+                }
+
+                img {
+                    text-align: center;
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+                    padding: 10px;
+                    margin-top: 20px;
+                }
+
+                h5 {
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: normal;
+                    font-family: Coco, Arial;
+                    margin-top: 20px;
+
+                    &:hover {
+                        color: #ffff;
+
+                    }
+                }
+
+                p {
+
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: normal;
+                    font-family: Coco, Arial;
+                    color: rgba(0, 0, 0, .54);
+
+                    &:hover {
+                        color: #ffff;
+
+                    }
+
+
+                }
+            }
+        }
+
+        .director {
+            padding: 46px;
+            margin-top: -40px;
+
+            .card {
+                background-color: #fafafa;
+                text-align: center;
+                border: 1px solid white;
+                padding: 30px;
+            }
+
+            img {
+                border-radius: 50%;
+            }
+
+            h5 {
+                text-align: left;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: normal;
+                font-family: Coco, Arial;
+                margin-top: 20px;
+            }
+
+            .position {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: normal;
+                font-family: Coco, Arial;
+                color: rgba(50, 50, 50, 0.5);
+
+            }
+
+            p {
+                text-align: left;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20.02px;
+                font-family: Coco, Arial;
+                color: rgba(3, 3, 3, 0.54);
+            }
+        }
+
+        .about {
+            background-color: #fafafa;
+            width: 100%;
+            text-align: left;
+            padding: 50px;
+
+            h1 {
+                @include active-title;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20.02px;
+                font-family: Coco, Arial;
+                color: rgba(0, 0, 0, .54);
+
+            }
+        }
+
+        .cards2 {
+            .card {
+                background-color: #ff6400;
+            }
+        }
+
+        .deyerler {
+            h1 {
+                @include active-title;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                text-align: left;
+
+            }
+
+            .card {
+
+                text-align: left;
+                padding: 20px;
+                border: none;
+
+                h5 {
+                    padding: 1rem;
+                    margin-bottom: -15px;
+                }
+            }
+        }
+
+        .vakansiya {
+            background-color: #fafafa;
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 30px;
+
+            button {
+                @include active-button;
+            }
+
+            h4 {
+                font-weight: 800px;
+                font-size: 16px;
+                line-height: normal;
+                font-family: Coco, Arial;
+            }
+
+            p {
+                font-weight: 400px;
+                font-size: 12px;
+                line-height: 20.02px;
+                font-family: Coco, Arial;
+                color: rgba(50, 50, 50, 0.5);
+                text-align: left;
+            }
+        }
+
+        .unibank-work {
+            margin-top: 60px;
+
+            img {
+                width: 90%;
+                margin-top: -35px;
+            }
+
+            h5 {
+                font-size: 34px;
+                color: white;
+                font-weight: 800;
+                font-family: Coco, Arial;
+                margin-right: 380px;
+            }
+
+            p {
+                font-size: 14px;
+                color: white;
+                font-weight: 400;
+                font-family: Coco, Arial;
+                margin-right: 473px;
+            }
+
+
+        }
+
+        .events {
+            h3 {
+                font-size: 34px;
+                color: black;
+                font-weight: 800;
+                font-family: Coco, Arial;
+                
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .card {
+               border: none;
+
+                img {
+                    width: 70%;
+                }
+            }
+            h4{
+                font-size: 16px;
+                font-weight: 700;
+                font-family: Coco,Arial;
+                text-align: left;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400px;
+                color: rgba(0, 0, 0, .54) ;
+                font-family: Coco,Arial;
+                text-align: left;
+            }
+
+        }
+
+        .our-capital{
+            margin-top: 30px;
+            img{
+                margin-top: 30px;
+                border-radius: 50%;
+                width: 10%;
+            }
+            h3{
+                margin-top: 30px;
+                font-size: 34px;
+                color: black;
+                font-weight: 800;
+                font-family: Coco, Arial;
+                
+            }
+            .position{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: normal;
+                font-family: Coco, Arial;
+                color: rgba(0, 0, 0, .54);
+
+            }
+            h4{
+                margin-top: 30px;
+                font-size: 20px;
+                color: black;
+                font-weight: 800;
+                font-family: Coco, Arial;
+              
+            }
+
+        }
+
+        .work-card{
+           .card{
+            background-color: #fafafa;
+            border: none;
+            padding: 30px;
+            img{
+                width: 30%;
+                margin: 0 auto;
+            }
+            button{
+                @include active-button
+            }
+           }
+            
+        }
+        .work-card2{
+            margin-top: 40px;
+           .card{
+            border: none;
+            h5{
+                text-align: start;
+            }
+            p{
+                text-align: start;
+            }
+           }
+        }
+    }
+
+}

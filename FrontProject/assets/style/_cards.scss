@@ -1,0 +1,116 @@
+.title {
+    @include active-title();
+    margin-top: 40px;
+}
+
+.cards {
+    margin-top: 50px;
+    background: #fafafa;
+    border-radius: 10px;
+    align-items: center;
+    padding: 50px;
+
+    h2 {
+        font-size: 24px;
+        font-weight: 800;
+        font-family: Coco, Arial;
+        line-height: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Coco, Arial;
+        line-height: 25px;
+        margin-bottom: 30px;
+
+    }
+
+    button {
+        @include active-button;
+    }
+
+    .ucard {
+        width: 90%;
+    }
+
+    .image-title {
+        font-size: 16px;
+        font-family: Coco, Arial;
+        font-weight: 700;
+        line-height: normal;
+        padding-right: 60px;
+        margin-left: 10px;
+
+
+    }
+}
+
+@mixin allcards{
+    h1 {
+        @include active-title;
+        margin-top: 50px;
+    }
+
+    .card {
+        margin-top: 50px;
+        background: #fafafa;
+        border-radius: 10px;
+        align-items: center;
+        padding: 60px;
+        border: 1px solid white;
+        width: 100%;
+
+        img {
+            width: 60%;
+            border-radius: 15px;
+            align-self: flex-start;
+            box-shadow: -15px 15px 30px 0 rgba(0, 0, 0, .24);
+            margin-left: 15px;
+        }
+
+        .card-price{
+            width: 100px;
+            height: 50%;
+            border-radius: 25px;
+            background-color: #fed3b6;
+            color: white;
+           margin-top: 5px;
+            padding: 5px;
+           
+        }
+
+        p {
+            padding-right: 80px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25px;
+            font-family: Coco, Arial;
+        }
+
+        h5 {
+            font-size: 24px;
+            font-weight: 800;
+            line-height: normal;
+            font-family: Coco, Arial;
+            margin-top: 30px
+        }
+
+        a {
+            button {
+                @include active-button;
+                margin-top: 30px
+            }
+        }
+
+    }
+}
+
+.debet-kartlar{
+    @include allcards()
+}
+
+.diger-kartlar{
+    @include allcards();
+margin-bottom: 60px;
+}

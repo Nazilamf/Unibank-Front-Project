@@ -1,0 +1,17 @@
+.alertbox {
+    background-color: rgb(22, 239, 22);
+    text-align: center;
+    color: white;
+    width: 15%;
+    position: fixed;
+    bottom: 60px;
+    right: -15%;
+    transition: 1s;
+    font-weight: bold;
+    border-radius: 5px;
+  
+}
+body
+{
+    overflow-x: hidden;
+}

@@ -1,0 +1,588 @@
+@mixin active-button {
+    background: #FF6400;
+    color: #ffff;
+    padding: 16px 25px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700px;
+    font-family: Coco, Arial;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+
+}
+
+.mobile {
+    display: none !important;
+}
+
+@mixin active-title {
+    line-height: 28px;
+    font-family: Coco, Arial;
+    font-weight: 800;
+    font-size: 28px;
+    color: #FF6400;
+    margin: 0 0 20px;
+}
+
+
+//mobile-header
+.mobile {
+    display: none;
+}
+
+
+.slider {
+    margin-top: 30px;
+    width: 100%;
+    height: 50%;
+
+    .slide {
+        background-color: #ff6b00;
+        background-image: url('	https://unibank.az/uploads/banners/1670397779bg2.jpg');
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+        h2 {
+            font-weight: 800;
+            font-size: 34px;
+            color: #fff;
+            margin-bottom: 20px;
+            line-height: normal;
+            font-family: Coco, Arial;
+
+
+        }
+
+        p {
+
+            font-weight: 400;
+            font-size: 14px;
+            color: #fff;
+            margin-bottom: 40px;
+            line-height: 25px;
+            font-family: Coco, Arial;
+
+        }
+
+        button {
+            background: #FF6400;
+            color: #ffff;
+            padding: 16px 25px;
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 700px;
+            font-family: Coco, Arial;
+            border-radius: 25px;
+            border: 1px solid white;
+            margin-right: 10px;
+        }
+    }
+
+    .dif-slide {
+        padding-top: 110px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+
+.cards {
+    .card {
+        width: 95%;
+        border-radius: 10px;
+        border: 1px solid #FAFAFA;
+        margin-bottom: 60px;
+
+
+        .info {
+
+            background-color: #FAFAFA;
+            border: none;
+            text-align: center;
+
+
+            h5 {
+                font-size: 20px;
+                font-weight: 600;
+                font-family: Coco, Arial;
+                line-height: 18px;
+                margin-bottom: 35px;
+
+            }
+
+            span {
+                font-size: 60px;
+                line-height: normal;
+                color: #FF6400;
+                margin-bottom: 20px;
+                font-weight: 700;
+                font-family: Coco, Arial;
+
+            }
+
+            p {
+                line-height: 14px;
+                font-weight: 400;
+                margin-top: 20px;
+                margin-bottom: 45px;
+                font-family: Coco, Arial;
+                font-size: 18px;
+            }
+
+
+            button {
+                @include active-button()
+            }
+
+        }
+    }
+
+}
+
+.ucard {
+    background: #fafafa;
+    border-radius: 10px;
+    align-items: center;
+
+    h2 {
+        @include active-title()
+    }
+
+    p {
+        font-size: 16px;
+        font-family: Coco, Arial;
+        padding-right: 95px;
+        font-weight: 400;
+        line-height: 1.43;
+        margin-bottom: 40px;
+    }
+
+    .buttons {
+
+        .main {
+            @include active-button()
+        }
+
+        button {
+            border: 1px solid #969696;
+            color: #969696;
+            background: #fff;
+            line-height: 16px;
+            padding: 16px 25px;
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 700px;
+            font-family: Coco, Arial;
+            border-radius: 25px;
+            margin-right: 10px;
+
+
+        }
+    }
+
+
+}
+
+
+.ubank {
+    background: #fafafa;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 40px;
+
+    .store {
+        margin-bottom: 30px;
+
+        img {
+            margin-right: 15px;
+        }
+    }
+
+    button {
+        @include active-button()
+    }
+
+    p {
+        padding-right: 110px;
+        font-size: 16px;
+        font-family: Coco, Arial;
+        font-weight: 400;
+        line-height: 1.43;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        @include active-title()
+    }
+
+
+}
+
+
+#exchange {
+    margin-top: 50px;
+    background: #fafafa;
+    border-radius: 10px;
+    align-items: center;
+
+    .exchange-title {
+        @include active-title();
+
+
+    }
+
+    .exchange {
+        tr th {
+            width: 33.3333333%;
+            padding: 15px 0;
+            padding-right: 30px;
+            white-space: nowrap;
+            color: #323232;
+            font-weight: 700;
+            line-height: 14px;
+            font-size: 16px;
+            font-family: Coco, Arial;
+
+        }
+
+        td {
+            color: rgba(50, 50, 50, .5);
+        }
+
+        p {
+            color: rgba(50, 50, 50, .5);
+        }
+
+    }
+
+    .converter {
+        h3 {
+            font-size: 20px;
+            font-family: Coco, Arial;
+            font-weight: 600;
+            padding: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            font-family: Coco, Arial;
+            font-weight: 200;
+            padding: 0 10px;
+            color: rgba(50, 50, 50, .5);
+        }
+    }
+
+
+}
+
+
+.news {
+    text-align: center;
+
+    button {
+        @include active-button();
+
+    }
+
+    .card {
+        padding: 40px;
+        margin: 20px;
+        border: 1px solid white;
+        background-color: #fafafa;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #FF6400;
+            color: #ffff;
+
+        }
+
+        h5 {
+            @include active-title();
+            font-size: 16px;
+            font-weight: 600;
+
+            &:hover {
+                color: #ffff;
+
+            }
+
+        }
+
+        p {
+            font-size: 14px;
+            font-family: Coco, Arial;
+            color: rgba(50, 50, 50, .5);
+
+            &:hover {
+
+                color: #ffff;
+
+            }
+
+        }
+
+
+    }
+}
+
+.more-info {
+    h2 {
+        @include active-title();
+        font-size: 20px;
+        font-weight: 700
+    }
+
+    button {
+        @include active-button();
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Coco, Arial;
+        color: rgba(50, 50, 50, .5);
+    }
+
+    .callcenter {
+        background-image: url("https://unibank.az/assets/images/callcenter.svg");
+        background-color: #FAFAFA;
+
+    }
+
+}
+
+.basket {
+
+    @include active-button();
+    opacity: 0.5;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+
+    i {
+        position: relative;
+
+        span {
+            position: absolute;
+            font-size: 14px;
+            background-color: white;
+            color: #9e4002;
+            padding: 8px 8px;
+            border-radius: 100%;
+            top: -17px;
+
+        }
+    }
+
+
+}
+
+.active-search {
+    display: block !important;
+}
+
+.dark-mode {
+    background-color: black !important;
+    color: white !important;
+
+    .main-header{
+        .header-top{
+            background-color: black;
+            color: white;
+            .header-left{
+                a{
+                    color: white;
+                }
+            }
+
+            .header-right{
+                button{
+                    background-color: #323232;
+                    i{
+                        background-color: #323232;
+                    }
+                }
+                .biznes{
+                    color: white;
+                }
+                span{
+                    background-color: #323232;
+                    color: white;
+                }
+            }
+
+            #myModal{
+               
+                .modal-content{
+                    background-color: black;
+                    .header-top{
+                        background-color: black!important;
+                        color: white;
+                        .header-left{
+                            
+                            a{
+                               
+                                color: white;
+                            }
+                        }
+                    }
+                    .search-content{
+                        background-color: black!important;
+                        color: white;
+                        input{background-color: black;
+                        i{background-color: black;
+                        }}
+                        #icon{
+                            color: white!important;
+                        }
+                    }
+                }
+              
+            }
+        }
+
+        .header-bottom{
+            a{
+                color: white;
+                button{
+                    background-color: black;
+                    border: 1px solid white;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .allcards{
+        background-color: black;
+        color: white;
+        .card{
+            background-color: #1A1A1A!important;
+            border: 1px solid #1A1A1A;
+        }
+        .info{
+            background-color: #1A1A1A!important;
+            
+        }
+    }
+
+    .ucard{
+        background-color: #1A1A1A;
+        .other{
+            background-color: #1A1A1A;
+        }
+    }
+
+    .ubank{
+        background-color: #1A1A1A;
+     
+    }
+    #exchange{
+        background-color: #1A1A1A;
+        p{
+            color: white;
+        }
+        h4{
+            color: white;
+        }
+        table{
+            color: white;
+           tr th{
+                color: white;
+            }
+            td{
+                color: white;
+            }
+
+        }
+
+        .converter{
+            background-color: #323232!important;
+            p{
+                color: white;
+            }
+            input{background-color: #636262;
+            border: 1px solid #323232;
+        }
+
+        }
+    }
+    .news{
+      
+        .card-deck{
+            .card{
+                background-color: #1A1A1A;
+                border: 1px solid #1A1A1A;
+              &:hover{
+                background-color: #FF6400;
+              }
+            }
+
+        }
+    }
+    .more-info{
+        .general{
+            .shebeke{
+                background-color: #1A1A1A;
+                p{
+                    color: white;
+                }
+            }
+           
+
+            .callcenter{
+                background-color: #1A1A1A;
+                p{
+                    color: white;
+                }
+            }
+        }
+    }
+.footer-info{
+    background-color: black;
+    color: white!important;
+ a{
+    color: white!important;
+ }
+
+}
+.copyright{
+    color: white!important;
+}
+}
+
+
+.search-content {
+    padding: 100px;
+
+    #icon {
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-family: Coco, Arial;
+    }
+
+    input {
+        border-radius: 25px;
+        border: 1px solid rgba(201, 193, 193, 0.5);
+        padding: 10px 300px;
+        background-image: url(../image/search.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 5%;
+
+    }
+}
+
+//   ===========================================

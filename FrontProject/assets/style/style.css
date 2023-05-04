@@ -1,0 +1,1352 @@
+.mobile {
+  display: none !important;
+}
+
+.mobile {
+  display: none;
+}
+
+.slider {
+  margin-top: 30px;
+  width: 100%;
+  height: 50%;
+}
+.slider .slide {
+  background-color: #ff6b00;
+  background-image: url("	https://unibank.az/uploads/banners/1670397779bg2.jpg");
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.slider .slide h2 {
+  font-weight: 800;
+  font-size: 34px;
+  color: #fff;
+  margin-bottom: 20px;
+  line-height: normal;
+  font-family: Coco, Arial;
+}
+.slider .slide p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 40px;
+  line-height: 25px;
+  font-family: Coco, Arial;
+}
+.slider .slide button {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+.slider .dif-slide {
+  padding-top: 110px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.cards .card {
+  width: 95%;
+  border-radius: 10px;
+  border: 1px solid #FAFAFA;
+  margin-bottom: 60px;
+}
+.cards .card .info {
+  background-color: #FAFAFA;
+  border: none;
+  text-align: center;
+}
+.cards .card .info h5 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Coco, Arial;
+  line-height: 18px;
+  margin-bottom: 35px;
+}
+.cards .card .info span {
+  font-size: 60px;
+  line-height: normal;
+  color: #FF6400;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: Coco, Arial;
+}
+.cards .card .info p {
+  line-height: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 45px;
+  font-family: Coco, Arial;
+  font-size: 18px;
+}
+.cards .card .info button {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+
+.ucard {
+  background: #fafafa;
+  border-radius: 10px;
+  align-items: center;
+}
+.ucard h2 {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+}
+.ucard p {
+  font-size: 16px;
+  font-family: Coco, Arial;
+  padding-right: 95px;
+  font-weight: 400;
+  line-height: 1.43;
+  margin-bottom: 40px;
+}
+.ucard .buttons .main {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+.ucard .buttons button {
+  border: 1px solid #969696;
+  color: #969696;
+  background: #fff;
+  line-height: 16px;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.ubank {
+  background: #fafafa;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 40px;
+}
+.ubank .store {
+  margin-bottom: 30px;
+}
+.ubank .store img {
+  margin-right: 15px;
+}
+.ubank button {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+.ubank p {
+  padding-right: 110px;
+  font-size: 16px;
+  font-family: Coco, Arial;
+  font-weight: 400;
+  line-height: 1.43;
+  margin-bottom: 40px;
+}
+.ubank h2 {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+}
+
+#exchange {
+  margin-top: 50px;
+  background: #fafafa;
+  border-radius: 10px;
+  align-items: center;
+}
+#exchange .exchange-title {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+}
+#exchange .exchange tr th {
+  width: 33.3333333%;
+  padding: 15px 0;
+  padding-right: 30px;
+  white-space: nowrap;
+  color: #323232;
+  font-weight: 700;
+  line-height: 14px;
+  font-size: 16px;
+  font-family: Coco, Arial;
+}
+#exchange .exchange td {
+  color: rgba(50, 50, 50, 0.5);
+}
+#exchange .exchange p {
+  color: rgba(50, 50, 50, 0.5);
+}
+#exchange .converter h3 {
+  font-size: 20px;
+  font-family: Coco, Arial;
+  font-weight: 600;
+  padding: 10px;
+}
+#exchange .converter p {
+  font-size: 14px;
+  font-family: Coco, Arial;
+  font-weight: 200;
+  padding: 0 10px;
+  color: rgba(50, 50, 50, 0.5);
+}
+
+.news {
+  text-align: center;
+}
+.news button {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+.news .card {
+  padding: 40px;
+  margin: 20px;
+  border: 1px solid white;
+  background-color: #fafafa;
+}
+.news .card:hover {
+  cursor: pointer;
+  background-color: #FF6400;
+  color: white;
+}
+.news .card h5 {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.news .card h5:hover {
+  color: white;
+}
+.news .card p {
+  font-size: 14px;
+  font-family: Coco, Arial;
+  color: rgba(50, 50, 50, 0.5);
+}
+.news .card p:hover {
+  color: white;
+}
+
+.more-info h2 {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.more-info button {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+.more-info p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Coco, Arial;
+  color: rgba(50, 50, 50, 0.5);
+}
+.more-info .callcenter {
+  background-image: url("https://unibank.az/assets/images/callcenter.svg");
+  background-color: #FAFAFA;
+}
+
+.basket {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  opacity: 0.5;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+}
+.basket i {
+  position: relative;
+}
+.basket i span {
+  position: absolute;
+  font-size: 14px;
+  background-color: white;
+  color: #9e4002;
+  padding: 8px 8px;
+  border-radius: 100%;
+  top: -17px;
+}
+
+.active-search {
+  display: block !important;
+}
+
+.dark-mode {
+  background-color: black !important;
+  color: white !important;
+}
+.dark-mode .main-header .header-top {
+  background-color: black;
+  color: white;
+}
+.dark-mode .main-header .header-top .header-left a {
+  color: white;
+}
+.dark-mode .main-header .header-top .header-right button {
+  background-color: #323232;
+}
+.dark-mode .main-header .header-top .header-right button i {
+  background-color: #323232;
+}
+.dark-mode .main-header .header-top .header-right .biznes {
+  color: white;
+}
+.dark-mode .main-header .header-top .header-right span {
+  background-color: #323232;
+  color: white;
+}
+.dark-mode .main-header .header-top #myModal .modal-content {
+  background-color: black;
+}
+.dark-mode .main-header .header-top #myModal .modal-content .header-top {
+  background-color: black !important;
+  color: white;
+}
+.dark-mode .main-header .header-top #myModal .modal-content .header-top .header-left a {
+  color: white;
+}
+.dark-mode .main-header .header-top #myModal .modal-content .search-content {
+  background-color: black !important;
+  color: white;
+}
+.dark-mode .main-header .header-top #myModal .modal-content .search-content input {
+  background-color: black;
+}
+.dark-mode .main-header .header-top #myModal .modal-content .search-content input i {
+  background-color: black;
+}
+.dark-mode .main-header .header-top #myModal .modal-content .search-content #icon {
+  color: white !important;
+}
+.dark-mode .main-header .header-bottom a {
+  color: white;
+}
+.dark-mode .main-header .header-bottom a button {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+.dark-mode .allcards {
+  background-color: black;
+  color: white;
+}
+.dark-mode .allcards .card {
+  background-color: #1A1A1A !important;
+  border: 1px solid #1A1A1A;
+}
+.dark-mode .allcards .info {
+  background-color: #1A1A1A !important;
+}
+.dark-mode .ucard {
+  background-color: #1A1A1A;
+}
+.dark-mode .ucard .other {
+  background-color: #1A1A1A;
+}
+.dark-mode .ubank {
+  background-color: #1A1A1A;
+}
+.dark-mode #exchange {
+  background-color: #1A1A1A;
+}
+.dark-mode #exchange p {
+  color: white;
+}
+.dark-mode #exchange h4 {
+  color: white;
+}
+.dark-mode #exchange table {
+  color: white;
+}
+.dark-mode #exchange table tr th {
+  color: white;
+}
+.dark-mode #exchange table td {
+  color: white;
+}
+.dark-mode #exchange .converter {
+  background-color: #323232 !important;
+}
+.dark-mode #exchange .converter p {
+  color: white;
+}
+.dark-mode #exchange .converter input {
+  background-color: #636262;
+  border: 1px solid #323232;
+}
+.dark-mode .news .card-deck .card {
+  background-color: #1A1A1A;
+  border: 1px solid #1A1A1A;
+}
+.dark-mode .news .card-deck .card:hover {
+  background-color: #FF6400;
+}
+.dark-mode .more-info .general .shebeke {
+  background-color: #1A1A1A;
+}
+.dark-mode .more-info .general .shebeke p {
+  color: white;
+}
+.dark-mode .more-info .general .callcenter {
+  background-color: #1A1A1A;
+}
+.dark-mode .more-info .general .callcenter p {
+  color: white;
+}
+.dark-mode .footer-info {
+  background-color: black;
+  color: white !important;
+}
+.dark-mode .footer-info a {
+  color: white !important;
+}
+.dark-mode .copyright {
+  color: white !important;
+}
+
+.search-content {
+  padding: 100px;
+}
+.search-content #icon {
+  margin-bottom: 30px;
+}
+.search-content p {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-family: Coco, Arial;
+}
+.search-content input {
+  border-radius: 25px;
+  border: 1px solid rgba(201, 193, 193, 0.5);
+  padding: 10px 300px;
+  background-image: url(../image/search.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Coco, Arial;
+  src: url(../fonts/Coco-Sharp-Regular-trial.ttf);
+}
+
+.header-top {
+  width: 100%;
+  background-color: #FAFAFA;
+  font-size: 15px;
+  margin-top: 20px;
+  align-items: center;
+}
+.header-top .header-left a img {
+  width: 30%;
+}
+.header-top .header-left nav a {
+  font-size: 12px;
+  font-weight: 400px;
+  color: #323232;
+  text-decoration: none;
+  font-family: Coco, Arial;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+.header-top .header-right button {
+  border-radius: 5px;
+  border: 1px solid #FD891E;
+  color: #FD891E;
+  background-color: #FAFAFA;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: Coco, Arial;
+}
+.header-top .header-right .biznes {
+  background-color: white;
+  color: #323232;
+  border: white;
+  font-weight: 400;
+  font-size: 12px;
+}
+.header-top .header-right .mode {
+  background-color: #323232;
+}
+.header-top .header-right span {
+  background-color: white;
+  color: #323232;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px 5px;
+}
+.header-top .header-right .search {
+  background-color: white;
+  padding: 5px 5px;
+}
+
+.header-bottom {
+  align-items: center;
+  margin-top: 30px;
+}
+.header-bottom a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Coco, Arial;
+  margin-right: 30px;
+  line-height: 18px;
+}
+.header-bottom button {
+  border-radius: 25px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  height: 45px;
+  color: #000;
+  background-color: white;
+  padding: 10px;
+}
+.header-bottom button i {
+  margin-right: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+  margin-top: 40px;
+}
+
+.cards {
+  margin-top: 50px;
+  background: #fafafa;
+  border-radius: 10px;
+  align-items: center;
+  padding: 50px;
+}
+.cards h2 {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: Coco, Arial;
+  line-height: 30px;
+}
+.cards p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Coco, Arial;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.cards button {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+.cards .ucard {
+  width: 90%;
+}
+.cards .image-title {
+  font-size: 16px;
+  font-family: Coco, Arial;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 60px;
+  margin-left: 10px;
+}
+
+.debet-kartlar h1 {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+  margin-top: 50px;
+}
+.debet-kartlar .card {
+  margin-top: 50px;
+  background: #fafafa;
+  border-radius: 10px;
+  align-items: center;
+  padding: 60px;
+  border: 1px solid white;
+  width: 100%;
+}
+.debet-kartlar .card img {
+  width: 60%;
+  border-radius: 15px;
+  align-self: flex-start;
+  box-shadow: -15px 15px 30px 0 rgba(0, 0, 0, 0.24);
+  margin-left: 15px;
+}
+.debet-kartlar .card .card-price {
+  width: 100px;
+  height: 50%;
+  border-radius: 25px;
+  background-color: #fed3b6;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+}
+.debet-kartlar .card p {
+  padding-right: 80px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: Coco, Arial;
+}
+.debet-kartlar .card h5 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: normal;
+  font-family: Coco, Arial;
+  margin-top: 30px;
+}
+.debet-kartlar .card a button {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.diger-kartlar {
+  margin-bottom: 60px;
+}
+.diger-kartlar h1 {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+  margin-top: 50px;
+}
+.diger-kartlar .card {
+  margin-top: 50px;
+  background: #fafafa;
+  border-radius: 10px;
+  align-items: center;
+  padding: 60px;
+  border: 1px solid white;
+  width: 100%;
+}
+.diger-kartlar .card img {
+  width: 60%;
+  border-radius: 15px;
+  align-self: flex-start;
+  box-shadow: -15px 15px 30px 0 rgba(0, 0, 0, 0.24);
+  margin-left: 15px;
+}
+.diger-kartlar .card .card-price {
+  width: 100px;
+  height: 50%;
+  border-radius: 25px;
+  background-color: #fed3b6;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+}
+.diger-kartlar .card p {
+  padding-right: 80px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: Coco, Arial;
+}
+.diger-kartlar .card h5 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: normal;
+  font-family: Coco, Arial;
+  margin-top: 30px;
+}
+.diger-kartlar .card a button {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.xidmet-title {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+}
+
+.tab-menu .tab-links {
+  display: flex;
+}
+.tab-menu .tab-links button {
+  flex: 1;
+  margin-right: 30px;
+  position: relative;
+  background: #fff;
+  color: rgba(50, 50, 50, 0.5);
+  border: 2px solid rgba(50, 50, 50, 0.5);
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 800px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+.tab-menu .tab-links button::before {
+  transform: rotateZ(314deg) translate(-39%);
+  border-left: 2px solid rgba(50, 50, 50, 0.5);
+  border-bottom: 2px solid rgba(50, 50, 50, 0.5);
+  bottom: -4px;
+  left: 44%;
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+}
+.tab-menu .tab-content .branch {
+  width: 100%;
+  display: flex;
+  padding: 35px 65px;
+  background: #fafafa;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.tab-menu .tab-content .branch:hover {
+  cursor: pointer;
+  background-color: #ff6400;
+  color: #fff;
+}
+.tab-menu .tab-content .branch div {
+  align-items: center;
+}
+
+.active {
+  border: 2px solid #ff6400 !important;
+  color: #ff6400 !important;
+}
+.active::before {
+  border-left: 2px solid #ff6400 !important;
+  border-bottom: 2px solid #ff6400 !important;
+}
+
+.hr {
+  text-align: center;
+}
+.hr h1 {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+}
+.hr .tab-content .cards .general-info {
+  background-color: #fafafa;
+  text-align: center;
+}
+.hr .tab-content .cards .general-info:hover {
+  cursor: pointer;
+  background-color: #ff6400;
+  color: white !important;
+}
+.hr .tab-content .cards .general-info img {
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  margin-top: 20px;
+}
+.hr .tab-content .cards .general-info h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  font-family: Coco, Arial;
+  margin-top: 20px;
+}
+.hr .tab-content .cards .general-info h5:hover {
+  color: white;
+}
+.hr .tab-content .cards .general-info p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: Coco, Arial;
+  color: rgba(0, 0, 0, 0.54);
+}
+.hr .tab-content .cards .general-info p:hover {
+  color: white;
+}
+.hr .tab-content .director {
+  padding: 46px;
+  margin-top: -40px;
+}
+.hr .tab-content .director .card {
+  background-color: #fafafa;
+  text-align: center;
+  border: 1px solid white;
+  padding: 30px;
+}
+.hr .tab-content .director img {
+  border-radius: 50%;
+}
+.hr .tab-content .director h5 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  font-family: Coco, Arial;
+  margin-top: 20px;
+}
+.hr .tab-content .director .position {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: Coco, Arial;
+  color: rgba(50, 50, 50, 0.5);
+}
+.hr .tab-content .director p {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.02px;
+  font-family: Coco, Arial;
+  color: rgba(3, 3, 3, 0.54);
+}
+.hr .tab-content .about {
+  background-color: #fafafa;
+  width: 100%;
+  text-align: left;
+  padding: 50px;
+}
+.hr .tab-content .about h1 {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+}
+.hr .tab-content .about p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.02px;
+  font-family: Coco, Arial;
+  color: rgba(0, 0, 0, 0.54);
+}
+.hr .tab-content .cards2 .card {
+  background-color: #ff6400;
+}
+.hr .tab-content .deyerler h1 {
+  line-height: 28px;
+  font-family: Coco, Arial;
+  font-weight: 800;
+  font-size: 28px;
+  color: #FF6400;
+  margin: 0 0 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+.hr .tab-content .deyerler .card {
+  text-align: left;
+  padding: 20px;
+  border: none;
+}
+.hr .tab-content .deyerler .card h5 {
+  padding: 1rem;
+  margin-bottom: -15px;
+}
+.hr .tab-content .vakansiya {
+  background-color: #fafafa;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+.hr .tab-content .vakansiya button {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+.hr .tab-content .vakansiya h4 {
+  font-weight: 800px;
+  font-size: 16px;
+  line-height: normal;
+  font-family: Coco, Arial;
+}
+.hr .tab-content .vakansiya p {
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 20.02px;
+  font-family: Coco, Arial;
+  color: rgba(50, 50, 50, 0.5);
+  text-align: left;
+}
+.hr .tab-content .unibank-work {
+  margin-top: 60px;
+}
+.hr .tab-content .unibank-work img {
+  width: 90%;
+  margin-top: -35px;
+}
+.hr .tab-content .unibank-work h5 {
+  font-size: 34px;
+  color: white;
+  font-weight: 800;
+  font-family: Coco, Arial;
+  margin-right: 380px;
+}
+.hr .tab-content .unibank-work p {
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  font-family: Coco, Arial;
+  margin-right: 473px;
+}
+.hr .tab-content .events h3 {
+  font-size: 34px;
+  color: black;
+  font-weight: 800;
+  font-family: Coco, Arial;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.hr .tab-content .events .card {
+  border: none;
+}
+.hr .tab-content .events .card img {
+  width: 70%;
+}
+.hr .tab-content .events h4 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Coco, Arial;
+  text-align: left;
+}
+.hr .tab-content .events p {
+  font-size: 14px;
+  font-weight: 400px;
+  color: rgba(0, 0, 0, 0.54);
+  font-family: Coco, Arial;
+  text-align: left;
+}
+.hr .tab-content .our-capital {
+  margin-top: 30px;
+}
+.hr .tab-content .our-capital img {
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 10%;
+}
+.hr .tab-content .our-capital h3 {
+  margin-top: 30px;
+  font-size: 34px;
+  color: black;
+  font-weight: 800;
+  font-family: Coco, Arial;
+}
+.hr .tab-content .our-capital .position {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: Coco, Arial;
+  color: rgba(0, 0, 0, 0.54);
+}
+.hr .tab-content .our-capital h4 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: black;
+  font-weight: 800;
+  font-family: Coco, Arial;
+}
+.hr .tab-content .work-card .card {
+  background-color: #fafafa;
+  border: none;
+  padding: 30px;
+}
+.hr .tab-content .work-card .card img {
+  width: 30%;
+  margin: 0 auto;
+}
+.hr .tab-content .work-card .card button {
+  background: #FF6400;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700px;
+  font-family: Coco, Arial;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+.hr .tab-content .work-card2 {
+  margin-top: 40px;
+}
+.hr .tab-content .work-card2 .card {
+  border: none;
+}
+.hr .tab-content .work-card2 .card h5 {
+  text-align: start;
+}
+.hr .tab-content .work-card2 .card p {
+  text-align: start;
+}
+
+.alertbox {
+  background-color: rgb(22, 239, 22);
+  text-align: center;
+  color: white;
+  width: 15%;
+  position: fixed;
+  bottom: 60px;
+  right: -15%;
+  transition: 1s;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 567px) {
+  .main-header {
+    display: none;
+  }
+  #exchange {
+    display: none;
+  }
+  .exchange-mobile {
+    display: block !important;
+  }
+  .debet-kartlar .card {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+  }
+  .debet-kartlar .card img {
+    width: 90%;
+  }
+  .debet-kartlar .card .card-text {
+    padding-right: 0px;
+  }
+  .debet-kartlar .card .card-price {
+    text-align: center;
+  }
+  .diger-kartlar .card {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+  }
+  .diger-kartlar .card img {
+    width: 90%;
+  }
+  .diger-kartlar .card .card-text {
+    padding-right: 0px;
+  }
+  .diger-kartlar .card .card-price {
+    text-align: center;
+  }
+  .allcards {
+    padding-top: 10px;
+    flex: auto;
+  }
+  .allcards .card .info span {
+    font-size: 28px;
+    line-height: normal;
+  }
+  .allcards .card .info p {
+    font-size: 12px;
+  }
+  .allcards .card .info button {
+    margin-top: -40px;
+  }
+  .allcards .card .info h5 {
+    font-size: 16px;
+  }
+  .allcards .card .info .dif {
+    margin-top: 22px;
+  }
+  .ucard {
+    display: block !important;
+  }
+  .ucard img {
+    width: 100%;
+  }
+  .ucard .buttons {
+    flex-wrap: wrap;
+  }
+  .ucard .buttons .main {
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+    margin-bottom: 30px;
+  }
+  .ubank {
+    display: block !important;
+  }
+  .ubank img {
+    width: 50%;
+  }
+  .ubank .store {
+    width: 50%;
+  }
+  .exchange tr th {
+    width: 33.3333333%;
+    padding: 15px 0;
+    padding-right: 30px;
+    white-space: nowrap;
+    color: #323232;
+    font-weight: 700;
+    line-height: 14px;
+    font-size: 16px;
+    font-family: Coco, Arial;
+  }
+  .exchange td {
+    color: rgba(50, 50, 50, 0.5);
+  }
+  .exchange p {
+    color: rgba(50, 50, 50, 0.5);
+  }
+  .card-deck {
+    display: block !important;
+  }
+  .more-info .general {
+    display: block !important;
+  }
+  .more-info .general img {
+    width: 100%;
+  }
+  .slider {
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+  }
+  .slider .slide {
+    display: block;
+    text-align: center;
+  }
+  .slider .slide img {
+    width: 50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
+  .slider .slide h2 {
+    font-weight: 900;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: normal;
+    font-family: Coco, Arial;
+  }
+  .slider .slide p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-family: Coco, Arial;
+  }
+  .slider .slide button {
+    background: #FF6400;
+    color: white;
+    padding: 9px 15px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700px;
+    font-family: Coco, Arial;
+    border-radius: 25px;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .footer-info {
+    display: none;
+  }
+  .mobile {
+    display: block !important;
+  }
+  .mobile .mylinks {
+    display: none;
+    height: 100vh;
+    border: 1px solid white;
+  }
+  .mobile .mylinks .top-mobile {
+    margin-top: 20px;
+    margin-left: 120px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Coco, Arial;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .mobile .mylinks nav {
+    margin-left: 120px;
+  }
+  .mobile .mylinks nav a {
+    color: rgba(0, 0, 0, 0.24);
+  }
+  .mobile .mylinks a {
+    display: block;
+    line-height: 40px;
+  }
+  .mobile .mylinks .ferdi-biznes {
+    margin-left: 65px;
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  .mobile .mylinks .ferdi-biznes .ferdi {
+    border: 1px solid #FD891E;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .mobile .mylinks .ferdi-biznes .biznes {
+    color: black;
+    padding: 5px 10px;
+  }
+  .tab-content .branch {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .tab-content .branch .unvan {
+    order: -1 !important;
+    flex: 1 0 100% !important;
+  }
+  .tab-links {
+    flex-wrap: wrap;
+  }
+}
+.active {
+  display: block !important;
+}
+
+.fixed-position {
+  position: fixed;
+}/*# sourceMappingURL=style.css.map */
